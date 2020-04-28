@@ -90,9 +90,10 @@
   margin: 3px;
 }
 
-.input:required {
-  border: solid 5px red;
-}
+.input:focus {
+ background: yellow;
+ color: red;
+  }
 
 .tekst2:hover {
   color: blue;
